@@ -1,16 +1,13 @@
-/* 02 - Configuração do body */
 body {
     width: 90%;
     margin: 0 auto;
     background-color: #D3D3D3;
 }
 
-/* 03 - Configuração do #wrapper */
 #wrapper {
     background-color: #ffffff;
 }
 
-/* 04 - Configuração do h1 */
 h1 {
     margin: 1% 0;
     padding: 0.25rem;
@@ -18,38 +15,31 @@ h1 {
     text-align: center;
 }
 
-/* 05 e 06 - Centralização de ul, h1 e p */
 ul, h1, p {
     text-align: center;
 }
 
-/* 07 - Configuração da .content */
 .content {
     overflow: auto;
 }
 
-/* 08 - Configuração de .feature, #nav e #footer */
 .feature, #nav, #footer {
     margin: 1% 0;
 }
 
-/* 09 - Configuração das colunas */
 .column1, .column2, .column3 {
     width: 31.3%;
     float: left;
 }
 
-/* 10 e 11 - Configuração da .column2 */
 .column2 {
     margin: 0 3%;
 }
 
-/* 12 - Padding dos parágrafos */
 .column1 p, .column2 p, .column3 p {
     padding: 10px;
 }
 
-/* 13 - Configuração do primeiro filho dos parágrafos */
 .column1 > p:first-child,
 .column2 > p:first-child,
 .column3 > p:first-child {
@@ -57,26 +47,22 @@ ul, h1, p {
     font-style: italic;
 }
 
-/* 14 - Configuração de li */
 li {
     display: inline;
     padding: 0.5rem;
 }
 
-/* 15 - Configuração de #nav e #footer */
 #nav, #footer {
     background: #efefef;
     padding: 0.5rem 0;
 }
 
-/* 16 - Configuração da .feature */
 .feature {
     background: #efefef;
     height: 10rem;
     margin-bottom: 1rem;
 }
 
-/* 17 - Configuração da .article */
 .article {
     background: #efefef;
     height: 25rem;
